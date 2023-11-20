@@ -20,11 +20,13 @@ public class Score : MonoBehaviour
         TurnOnTable();
     }
     
+    //Método para realizar una resta de números enteros
     public void sumarPuntos(int puntos)
     {
         score -= puntos;        
     }
 
+    //Método para activar un objeto después de cumplirse con la condición del sí
     public void TurnOnTable()
     {
         if(score == 0) 

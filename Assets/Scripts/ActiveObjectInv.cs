@@ -13,6 +13,7 @@ public class ActiveObjectInv : MonoBehaviour
     [SerializeField] private int cantidad;
     [SerializeField] private Score puntaje;
 
+    //Método para ejecutar una acción cuando exista una colisión con un objeto con una etiqueta
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
